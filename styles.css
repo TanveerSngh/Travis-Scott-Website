@@ -1,0 +1,122 @@
+ /* I got a basic template from chatGPT and then altered to fit my needs */
+
+        a {
+    color: #fff; /* Set hyperlink color to white */
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333; /*change this value to dark gray */
+            text-align:center;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            background-color: #333; /* Dark grey background */
+        }
+    
+        footer {
+            background-color: #fff; /* White footer */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gray-box {
+            background-color: rgba(33, 33, 33, 1);
+            color: #fff; /* Set text color to white */
+            max-width:50%;
+            margin: 20px auto 100px auto;
+            padding: 20px 50px;
+            border-radius:25px;
+        }
+
+        .about {
+           text-align:center;
+        }
+
+        .album {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        /* Apply basic styles to the grid container */
+        /* My friend ryan also helped me set up the CSS for the Grid pattern */
+        .grid-container { 
+        	margin: auto;
+            width: 57%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            grid-template-rows: repeat(2, 1fr); /* Two rows */
+            gap: 10px; /* Gap between grid items */
+        }
+    
+       
+        .grid-item {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cover-img{ 
+        	height:200px;
+        	width:200px;
+        	border: 5px solid rgba(171, 0, 31, 1);
+        }
+
+        .container {
+            display: inline-block;
+            margin-top: 20px;
+            vertical-align: top;
+        }
+
+        .information-box {
+            display: inline-block;
+            background-color: rgba(27, 160, 181, 1);
+            padding: 10px;
+            width: 20%;
+            vertical-align: top;
+            float: left 5px;
+            border-radius: 25px
+        }
+
+        .tracklist {
+            display: inline-block;
+            width: 50%;
+            vertical-align: top; 
+            margin-right: 20%
+        }
+
+        #song1 {
+            text-align: center;
+        }
+
+        #days-before-rodeo{
+            background-repeat: repeat;
+            background-image:url('images/Circus.png');
+            background-size:1000px;
+        }
